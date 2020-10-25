@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="factbook-minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<mondial>
+    <continent id="_01" name="Amerique_du_Nord"/> 
+    <continent id="_02" name="Amerique_du_Sud"/>
+    <continent id="_03" name="Antarctique"/>
+    <continent id="_04" name="Eurasie"/>
+    <continent id="_05" name="Afrique"/>
+    <continent id="_06" name="Oceanie"/>
+    
+    <!-- Amérique_du_Nord   -->
+        <country id="_01-01" name="Canada" gdp_total="1552000000000" gdp_agri="111900000000">
+            <name>Canada</name>
+                <city longitude="-75.695000" latitude="45.424721">
+                    <name>Ottawa</name>
+                    <population xmlns="inalco:documents-structures:ns">934243</population>
+                </city>
+                <city longitude="-73.567256" latitude="45.5016889">
+                    <name>Montréal</name>
+                    <population xmlns="inalco:documents-structures:ns">1704694</population>
+                </city>
+        </country>
+        <country id="_01-02" name="Mexique" gdp_total="1282000000000" gdp_agri="60349500000000">
+            <name>Mexique</name>
+                <city longitude="-103.3496092" latitude="20.6596988">
+                    <name>Guadalajara</name>
+                    <population xmlns="inalco:documents-structures:ns">1600940</population>
+                    <located_at/>
+                </city> 
+        </country>  
+    
+    <!-- Amérique_du_Sud   -->
+        <country id="_02-01" name="Bolivie" gdp_total="41000000000" gdp_agri="1970563000000">
+            <name>Bolivie</name>
+                <city longitude="-63.18117" latitude="-17.78629">
+                    <name>Santa Cruz de la Sierra</name>
+                    <population xmlns="inalco:documents-structures:ns">2439945</population>
+                </city>
+        </country>
+    
+    <!--Antarctique-->
+        <country id="_03-01" name="Antarctique" gdp_total="1" gdp_agri="0">
+            <name>Antarctique</name>
+                <city longitude="114.4" latitude="82.7">
+                    <name>NONE</name>
+                    <population xmlns="inalco:documents-structures:ns">0</population>
+                </city>
+         </country>
+    
+    <!-- Eurasie  -->
+        <country id="_04-01" name="Japon" gdp_total="4872000000000" gdp_agri="468500000000">
+            <name>Japon</name>
+                <city longitude="131.42389" latitude="31.91111">
+                    <name>Miyazaki</name>
+                    <population xmlns="inalco:documents-structures:ns">401138</population>
+                </city>
+        </country>
+        <country id="_04-02" name="France" gdp_total="2775000000000" gdp_agri="773200000000">
+            <name>France</name>
+                <city longitude="2.3488" latitude="48.8534">
+                    <name>Paris</name>
+                    <population xmlns="inalco:documents-structures:ns">2187526</population>
+                </city> 
+        </country> 
+    
+    <!--Afrique-->
+        <country id="_05-01" name="Nigeria" gdp_total="3970000000000" gdp_agri="391866800000000">
+            <name>Nigeria</name>
+                <city longitude="8.5" latitude="11.5">
+                    <name>Kano</name>
+                    <population xmlns="inalco:documents-structures:ns">10077638</population>
+                    <located_at/>
+                </city>
+        </country>
+    
+    <!--Oceanie-->
+        <country id="_06-01" name="France" gdp_total="2775000000000" gdp_agri="773200000000">
+            <name>Nouvelle-Calédonie</name>
+                <city longitude="166.4572" latitude="-22.27631">
+                    <name>Noumea</name>
+                    <population xmlns="inalco:documents-structures:ns">94285</population>
+                </city>
+        </country> 
+</mondial>

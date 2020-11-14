@@ -1,0 +1,22 @@
+1. /pdv_liste
+2. /pdv_liste/pdv/child::*
+3. /pdv_liste/pdv/ville/data()
+4. /pdv_liste/pdv[46]
+5. /pdv_liste/pdv/prix[last()]
+6.//pdv[@id = "3150005"]
+7. //pdv/services[not (contains (service, 'GPL'))]  (<- ça ne marche pas)
+	-> //pdv[services[not(service[text()="GPL"])]] (solution)
+8.??
+9.//pdv_liste/pdv[@cp="16170"]
+10.//pdv/ouverture[@saufjour="Lundi"]
+11.//pdv/services/service[text () ="Relais colis"]
+12.??
+13.//pdv_liste/pdv/rupture[contains(@début, "2013-02-04")][@nom="SP95"]
+14.??
+15.//pdv_liste/pdv/adresse[text()="La Mure"]
+16. count(//pdv)
+17.??
+18.??
+19./pdv_liste/pdv/fermeture[not(@fin="20:00")]
+20.??
+21. ??

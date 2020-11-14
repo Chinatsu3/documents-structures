@@ -1,0 +1,8 @@
+1.//juicers/juicer[@type="centrifugal"]/string()
+2.//juicers/juicer[@type="centrifugal"][last()]
+3.remove((//juicer[@type="centrifugal"]), 2)
+4.//juicers/juicer/name
+5.index-of(//juicers/juicer, //juicer[@id ="juiceman-jr"])
+6.//juicers/juicer/name/string()
+7.(5 to 25)
+8.(5 to 25)[.mod 5=0]

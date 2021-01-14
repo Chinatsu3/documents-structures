@@ -21,7 +21,7 @@
 
 class: center, middle
 
-<<<<<<< HEAD
+
 # XML
 
 ---
@@ -40,29 +40,11 @@ Envoyez un mail de présentation avec les informations suivantes
 Si vous n'êtes pas inscrit à l'Inalco mais à Paris 3 ou bien Nanterre,
 indiquez cette information dans le mail avec votre numéro étudiant.
 Cela me sera utile lors de la remise des notes
-=======
-# Cours 01
-## 16/01/2020
 
----
-## Préambule
-Envoyez un mail à `arthur.provenier@gmail.com` avec comme
-- objet : `[M2 TAL] présentation`
-- corps du message :
-    - Prénom NOM
-    - Un emploi en cours ?
-    - Quel master en M1 ?
-    - Après le master ? plutôt public ou privé ?
-    - Languages de programmation connus
-    - Langues parlées
->>>>>>> 73d8d3f8e854ee245914327bf41e847778db38ed
 
 ---
 ## Rappel sur XML
-### Historique
-
-<<<<<<< HEAD
-#### XML est 
+### Historique 
 
 Hérité de **S**tandard **G**eneralized **M**arkup **L**anguage (SGML), un standard pour définir les langages à balises.
 HTML est aussi hérité de ce standard mais avec un vocabulaire contrôlé.
@@ -81,7 +63,7 @@ des répertoires.
 ### Manipulation
 
 Le XML a donné lieu à plusieurs formats comme [RSS](https://en.wikipedia.org/wiki/RSS), 
-[SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics).
+[SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) et [EPUB](https://fr.wikipedia.org/w/index.php?oldid=178763113).
 
 Il est à la base des formats utilisés par les logiciels de bureautique (Microsoft Office, Libre Office).
 
@@ -94,32 +76,8 @@ Vous pouvez le vérifier de cette façon
 
 # -d spécifie un dossier pour dézipper le contenu
 unzip hello.odt -d hello-contenu
-=======
-Permettre la structuration de documents avec l'aide de balises.
-
-Relier des informations structurées sous forme d'arbres.
-
-Développé par le W3C qui définit les [spécifications](https://www.w3.org/XML/).
-
-Hérité de **S**tandard **G**eneralized **M**arkup **L**anguage (SGML), un standard pour définir les langages à balises.
-HTML est aussi hérité de ce standard.
-
----
-### Manipulation
-On trouve du XML un peu partout, comme avec [Maven](https://maven.apache.org/) ou bien le format odt.
-
-``` bash
-# Ouvrir LibreOffice Writer
-# Écrire "Hello World!" puis enregistrer
-
-# -d spécifie un dossier pour dézipper le contenu
-unzip nomFichier.odt -d contenu-odt
->>>>>>> 73d8d3f8e854ee245914327bf41e847778db38ed
-
-# Explorer le dossier créé
 ```
 
-<<<<<<< HEAD
 ---
 
 Vous verrez que notre `Hello World !` se trouve dans le document `content.xml`.
@@ -131,15 +89,6 @@ par l'éditeur.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <office:document-content 
-    xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
-=======
---
-
-Nos données sont encodées en xml !
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
->>>>>>> 73d8d3f8e854ee245914327bf41e847778db38ed
     xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
     xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
     office:version="1.2">

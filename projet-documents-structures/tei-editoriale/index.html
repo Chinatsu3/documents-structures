@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+   <body>
+      <div>
+         <div>
+            <h1 id="site-title" align="center">Document Structuré</h1>
+            <h4 align="center">Chinatsu KUROIWA - TAL M2 - 2020/2021</h4>
+            </div>
+         <div>
+            <text>
+               <h1>
+                  <center>Bienvenue !</center>
+               </h1>
+            </text>
+            
+            <h1>
+               <p>Objectif</p>
+            </h1>
+            
+            <h3>
+               <p>L’objectif de ce projet est de réaliser une chaîne de traitement pour la publication
+                  de documents en
+                  ligne. Nous allons traiter troisdocuments suivants : « Madame-Bovary.odt », « SIDDHARTHA.odt
+                  » et « Wuthering-Heights.odt ».
+                  Nous allons ensuite presenter le contenu de ces documents sur un site web et interagir
+                  avec. Afin de réaliser ce projet, nous avons suivi deux étapes.
+               </p>
+            </h3>
+            
+            
+            <h1>
+               <p>Étape 1</p>
+            </h1>
+            
+            <h3>
+               <p>La première étape a consisté la transformation des documents au format OpenDocument
+                  en document XML selon le standard de la Text Encoding Initiative (TEI).
+                  Pour cela, son schéma nous est communiqué afin de nous permettre de valider la structure.
+                  
+               </p>
+            </h3>
+            
+            
+            <h1>
+               <p>Étape 2</p>
+            </h1>
+            
+            <h3>
+               <p>La deuxième partie a consisé la creation d'un site web à l'aide de l'outil eXistdb.
+                  À partir de celle-ci, nous avons réalisé un site internet à l’aide de xquery et xslt.
+                  Ce site contient trois interfaces : une page pour présenter le projet, une autre pour
+                  afficher nos documents mis en page et finalement une pour la recherche d’informations
+                  dans les documents.
+                  
+               </p>
+            </h3>
+            
+            
+            <h1>
+               <p>Difficultés rencontrées</p>
+            </h1>
+            
+            <h3>
+               <p>J'ai eu beaucoup de difficulté pour ce projet notamment l'utilisation de certains
+                  éléments de XSLT tel que "xslt:for-each".
+                  les dossiers odt que nous avons traité avaient des répétitions de balises qui s'imbriquaient
+                  entre elles. 
+                  C’est pour cela, j'ai voulu utilisé "xsl:for-each" en utilisant la condition "if".
+                  
+                  Cependant je n'ai pas réussi de récupérer les éléments cibles de la document traité
+                  à bon endroits dans le fichier sortie.
+                  J'ai donc finalement utilisé les "xsl:apply-templates select=''" et "xsl:template
+                  match='' " chaque fois.
+                  J'ai aussi eu de difficulté de l'utilisation des éléments de xslt qui nous permet
+                  de simplifier des extractions des données grâce à la rélation entre noeud.
+                  
+                  Pour le existedb, j'ai malheureusement eu beaucoup du mal à comprendre sa fonction
+                  à cause des documents qui sont créés automatiquement lors de la création de la nouvelle
+                  application et qui ne sont pas très explicite.
+                  J’ai eu du mal à comprendre où et comment l’on doit mettre les éléments pour lier
+                  à un autre page etc.
+                  Malheresement le tutolial m'a pas aidé à les comprendre. 
+                  
+               </p>
+            </h3>
+            
+            
+            <h1>
+               <p>Navigation</p>
+            </h1>
+            
+            <h3>
+               <p>
+                  Vous pouvez naviguer dans le site en cliquant le bouton « Menu ».  
+                  Il y a page de « Datas » qui contiens trois liens des documents pour vous permettre
+                  de regarder les contenue de chaque document.
+                  
+               </p>
+            </h3>
+            
+         </div>
+         <hr size="6" width="100%" color="navy"/>
+      </div>
+   </body>
+</div>
